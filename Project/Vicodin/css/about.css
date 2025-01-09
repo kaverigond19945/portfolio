@@ -1,0 +1,286 @@
+/* font-family: 'Josefin Sans', sans-serif; */
+/* font-family: 'Nunito Sans', sans-serif; */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bs-blue1: #0a9a73;
+    --bs-blue2: #5C727D;
+    --bs-blue3: #b4c0c6;
+    --bs-blue4: #171B2A;
+    --bs-white1: #F2F6F7;
+    --bs-green1: #071c1f;
+    --bs-bg1: #282b38;
+    --bs-font-familyjosefin: 'Josefin Sans', sans-serif;
+    --bs-font-familynunito: 'Nunito Sans', sans-serif;
+}
+.text-blue1{
+    color: var(--bs-blue1) !important;
+}
+.bg-blue1{
+    background-color: var(--bs-blue1) !important;
+}
+.bg-blue4{
+    background-color: var(--bs-blue4) !important;
+}
+.border-blue1{
+    border-color: var(--bs-blue1) !important;
+}
+.bg-blue2{
+    background-color: var(--bs-blue2) !important;
+}
+.bg-white1{
+    background-color: var(--bs-white1) !important;
+}
+.bg-green1{
+    background-color: var(--bs-green1) !important;
+}
+.text-green1{
+    color: var(--bs-green1) !important;
+}
+.text-blue2{
+    color: var(--bs-blue2) !important;
+}
+.text-blue3{
+    color: var(--bs-blue3) !important;
+}
+.border-blue2{
+    border-color: var(--bs-blue2) !important;
+}
+.bg-bg1{
+    background-color: var(--bs-bg1) !important;
+}
+.fontjosefin{
+    font-family: var(--bs-font-familyjosefin) !important;
+}
+.fontnunito{
+    font-family: var(--bs-font-familynunito) !important;
+}
+#header{
+    z-index: 99 !important;
+}
+#header2{
+    z-index: 50 !important;
+}
+.herosectionimg{
+    width: 400% !important;
+}
+#herosection{
+    background: linear-gradient(rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.2)), url(../images/about14.jpg) no-repeat;
+    background-size: cover;
+}
+.breadcrumb-item+.breadcrumb-item::before{
+    content: ">" !important;
+}
+#herosection a:hover{
+    color: #0a9a73 !important;
+}
+@media only screen and (min-width:768px){
+    .herosectionimg{
+        width: 150% !important;
+    }
+    .herosectioncontents{
+        margin: 0px 0px 80px 0px;
+    }
+    .herosectioncontents p{
+        width: 70%;
+    }
+    #header{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    #header2{
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+    #herosection:hover .carousel-control-prev{
+        display: block !important;
+    }
+    #herosection:hover .carousel-control-next{
+        display: block !important;
+    }
+}
+@media only screen and (min-width:1024px){
+    .herosectionimg{
+        width: 120% !important;
+    }
+    .herosectioncontents h2{
+        font-size: 18px !important;
+    }
+    .herosectioncontents h3{
+        font-size: 50px;
+    }
+    #end, #footer, #herosection{
+        padding-left: 20px !important;
+    }
+    
+}
+/* @media only screen and (min-width:1360px){
+    #campaign{
+        padding-left: 100px !important;
+    }
+} */
+@media only screen and (min-width:1440px){
+    .herosectionimg{
+        width: 100% !important;
+    }
+    #hurry img{
+        margin: 0px 0px 0px 0px !important;
+        width: 100% !important;
+    }
+    #header{
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+    }
+    #header2{
+        margin-left: 80px !important;
+        margin-right: 80px !important;
+    }
+    #end, #footer, #herosection{
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+    }
+}
+@media only screen and (min-width:2560px){
+    .herosectionimg{
+        /* width: 165% !important; */
+        width: 140% !important;
+    }
+    .herosectioncontents{
+        margin: 0px 250px 825px 250px !important;
+    }
+    .campaigncontents{
+        margin: 0px 0px 0px 585px !important;
+    }
+    #header{
+        padding-left: 650px !important;
+        padding-right: 650px !important;
+    }
+    #header2{
+        margin-left: 650px !important;
+        margin-right: 650px !important;
+    }
+    #hurry{
+        padding-right: 560px !important;
+    }
+    #hurry img{
+        margin: 0px 100px 0px 0px !important;
+        width: 130% !important;
+    }
+    #end, #footer, #herosection{
+        padding-left: 160px !important;
+        padding-right: 160px !important;
+    }
+}
+#campaign{
+    background: url(../images/25Campaign.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.campaigntime h2{
+    font-size: 20px !important;
+}
+.latestrtg i{
+    font-size: 12px !important;
+}
+#latest span{
+    font-size: 13px !important;
+}
+#hurry img{
+    margin: 0px 0px 0px -125px;
+    width: 150%;
+}
+#upbutton{
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    z-index: 99;
+    /* box-shadow: 4px 4px 8px gray !important; */
+    /* text-shadow: 4px 4px 8px gray !important; */
+}
+#header a:hover, #header button:hover, #header i:hover{
+    color: #0a9a73 !important;
+}
+#header2 .dropdown-toggle::after{
+    display: none;
+}
+#header2 button:hover, #header2 button:hover i, .headerli:hover, .headerli:hover i, .headerli:hover sup{
+    background-color: #0a9a73 !important;
+    color: white !important;
+}
+#header2 a:hover{
+    color: #0a9a73 !important;
+}
+.carousel-control-prev, .carousel-control-next{
+    display: none;
+}
+#herosection .carousel-item button:hover, #campaign button:hover{
+    background-color: white !important;
+    border: 1px solid #071c1f !important;
+    color: #071c1f;
+}
+#services .item:hover i, #services .item:hover h6, #products h6 small:hover, #latest h6 small:hover, #trending h6 small:hover, #blogs h6 small:hover, #blogs h5:hover, .phonenoend:hover, .emailend:hover, .joinend i:hover,.endpoints li:hover, .endpoints li:hover p, #footer a:hover{
+    color: #0a9a73 !important;
+}
+
+#sponsors img:hover{
+    transform: scale(1.2) !important;
+    transition: all 0.5s;
+    transition-duration: 0.5s;
+}
+.endpoints span{
+    display: none;
+}
+.endpoints li:hover span{
+    display: inline-block;
+}
+.endpoints li:hover p{
+    transform: translateX(10px) !important;
+    transition: all 0.5s !important;
+    transition-duration: 0.5s !important;
+}
+#end form button:hover{
+    background-color: #071c1f !important;
+    border-color: #071c1f !important;
+}
+#upbutton:hover, .productcard li:hover, .productcard2 li:hover{
+    background-color: #0a9a73 !important;
+}
+.productcard li:hover, .productcard2 li:hover{
+    border-color: #0a9a73 !important;
+}
+#upbutton:hover i, .productcard li:hover i, .productcard2 li:hover i{
+    color: white !important;
+}
+.productsimg img, #offers img, #shopnow img, #blogs img, .productcard img{
+    transform: scale(1) !important;
+    transition: all 0.8s !important;
+    transition-duration: 0.8s !important;
+}
+.productsimg:hover img, #offers img:hover, #shopnow img:hover, #blogs img:hover, .productcard:hover img{
+    transform: scale(1.1) !important;
+    transition: all 0.8s !important;
+    transition-duration: 0.8s !important;
+}
+.producteffect2, .producteffect4{
+    display: block;
+    transform: translateY(0px) !important;
+    transition: all 0.3s !important;
+    opacity: 0;
+    transition-duration: 1s;
+}
+.productcard:hover .producteffect2{
+    transform: translateY(-150px) !important;
+    transition: all 0.3s !important;
+    transition-duration: 1s;
+    opacity: 1;
+}
+.productcard2:hover .producteffect4{
+    transform: translateY(-100px) !important;
+    transition: all 0.3s !important;
+    transition-duration: 1s;
+    opacity: 1;
+}
+.productcard2:hover{
+    box-shadow: 2px 2px 4px gray;
+}
