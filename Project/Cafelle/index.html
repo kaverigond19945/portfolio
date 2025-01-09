@@ -1,0 +1,1568 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cafelee</title>
+
+    <link rel="icon" href="images/coffcup.png">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="../javascript-plugin/1-OwlCarouselPlugin/css/owl.carousel.min.css">
+
+    <link rel="stylesheet" href="../javascript-plugin/1-OwlCarouselPlugin/css/owl.theme.default.min.css">
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="../bootstrap-5.1.3-dist/css/bootstrap.min.css">
+
+
+  </head>
+
+
+  <body>
+    <div class="container-fluid fontpoppins bg-bg position-relative">
+
+      <!-- sticky-top -->
+        <div class="row bg-bg1" id="header">
+            <nav class="navbar navbar-expand-md bg-bg1 px-2 py-3">
+                <div class="container-fluid">
+                      <ul class="navbar-nav me-auto me-lg-0 mb-2 mb-lg-0 d-flex flex-column flex-lg-row d-none d-md-block">
+                        <li class="nav-item d-inline-block" style="width: 10rem;">
+                          <span class="float-start">
+                            <i class="fas fa-shipping-fast fs-5 text-ochre1 me-2 mt-2"></i>
+                          </span>
+                          <span>
+                              <a class="nav-link active text-white" aria-current="page" href="#">Free Shipping</a>
+                          </span>
+                        </li>
+                        <li class="vr d-none d-lg-inline-block text-gray1"></li>
+                        <li class="nav-item d-inline-block ms-lg-2" style="width: 10rem;">
+                          <span class="float-start">
+                            <i class="fas fa-gift fs-5 text-ochre1 me-2 mt-2"></i>
+                          </span>
+                          <span>
+                              <a class="nav-link active text-white" aria-current="page" href="#">Special Offer</a>
+                          </span>
+                        </li>
+                      </ul>
+                  <a class="navbar-brand text-md-center" href="#">
+                    <img src="images/logo.png" class="headerimg" alt="Image Not Found">
+                  </a>
+                  <div>
+                      <ul class="navbar-nav ms-auto d-flex flex-row">
+                          <li class="nav-item">
+                              <span class="float-start me-2">
+                                  <a href="#">
+                                    <i class="far fa-user fs-2 text-ochre1 me-md-3 mt-md-3"></i>
+                                  </a>
+                                </span>
+                              <span>
+                                  <a class="nav-link active d-none d-md-block text-white" aria-current="page" href="#">Sign In & Join Free</a>
+                                </span>
+                            </li>
+                            <li class="nav-item headerele">
+                                <span class="float-start">
+                                  <a href="#">
+                                    <i class="fas fa-shopping-basket fs-2 text-ochre1 me-md-2 mt-md-3 mb-md-3"></i>
+                                  </a>
+                                </span>
+                                <span>
+                                    <span class="badge rounded-pill bg-ochre1 text-dark d-none d-md-inline">
+                                      0
+                                      <span class="visually-hidden">unread messages</span>
+                                    </span>
+                                    <a class="nav-link active d-none d-md-block text-white ms-md-2" aria-current="page" href="#">My Cart</a>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-primary bg-transparent border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample1" aria-controls="offcanvasExample1">
+                      <span class="fas fa-bars text-ochre1 fs-2"></span>
+                    </button>
+
+                    <div class="offcanvas offcanvas-end bg-bg1 d-md-none" tabindex="-1" id="offcanvasExample1" aria-labelledby="offcanvasExample1">
+                      <div class="offcanvas-header">
+                        <button type="button" class="btn-close text-reset ms-auto text-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                      <div class="offcanvas-body">
+                        <div class="accordion accordion-flush bg-transparent" id="accordionFlushExample">
+                          <div class="accordion-item header2acc1 bg-transparent">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                              <button class="accordion-button collapsed bg-transparent text-ochre1" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                <!-- <a href="#" class="text-decoration-none text-ochre1">Home</a> -->
+                                Home
+                              </button>
+                            </h2>
+                          </div>
+                          <div class="accordion-item bg-transparent">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                              <button class="accordion-button collapsed bg-transparent text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                Shop
+                              </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                              <div class="accordion-body">
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item bg-transparent border-secondary">
+                                    <a href="#" class="text-decoration-none text-white">Product Category</a>
+                                  </li>
+                                  <li class="list-group-item bg-transparent border-secondary">
+                                    <a href="#" class="text-decoration-none text-white">Top rated product</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item bg-transparent">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                              <button class="accordion-button collapsed bg-transparent text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                Blog
+                              </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                              <div class="accordion-body">
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item bg-transparent border-secondary">
+                                    <a href="#" class="text-decoration-none text-white">Left Sidebar</a>
+                                  </li>
+                                  <li class="list-group-item bg-transparent border-secondary">
+                                    <a href="#" class="text-decoration-none text-white">Right Sidebar</a>
+                                  </li>
+                                  <li class="list-group-item bg-transparent border-secondary">
+                                    <a href="#" class="text-decoration-none text-white">Full Width</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item bg-transparent">
+                            <h2 class="accordion-header" id="flush-headingFour">
+                              <button class="accordion-button collapsed bg-transparent text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                Media
+                              </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                              <div class="accordion-body">
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item bg-transparent border-secondary">
+                                    <a href="#" class="text-decoration-none text-white">Gallery</a>
+                                  </li>
+                                  <li class="list-group-item bg-transparent border-secondary">
+                                    <a href="#" class="text-decoration-none text-white">Portfolio</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item header2acc1 bg-transparent">
+                            <h2 class="accordion-header" id="flush-headingFive">
+                              <button class="accordion-button collapsed bg-transparent text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                <!-- <a href="#" class="text-decoration-none text-white">About Us</a> -->
+                                About Us
+                              </button>
+                            </h2>
+                          </div>
+                          <div class="accordion-item header2acc1 bg-transparent">
+                            <h2 class="accordion-header" id="flush-headingSix">
+                              <button class="accordion-button collapsed bg-transparent text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                <!-- <a href="#" class="text-decoration-none text-white">Contact Us</a> -->
+                                Contact Us
+                              </button>
+                            </h2>
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </nav>
+        </div><!-- header End-->
+
+
+        <div class="row sticky-md-top d-none d-md-block bg-bg2" id="header2">
+          <nav class="navbar navbar-expand-lg navbar-light p-2">
+            <div class="col-6">
+              <button class="btn btn-primary bg-transparent border-0 d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                <span class="fas fa-bars text-white fs-2 d-flex flex-row align-items-center">
+                  <!-- <p class="text-white fs-6 fontpoppins d-inline ms-2 fw-lighter">
+                    Menu
+                  </p> -->
+                  <span class="text-white fs-6 fontpoppins d-inline ms-2 fw-lighter">
+                    Menu
+                  </span>
+                </span>
+              </button>
+              
+              <div class="offcanvas offcanvas-start w-100" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExample">
+                <div class="offcanvas-header">
+                  <button type="button" class="btn-close text-reset ms-auto text-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <div class="accordion accordion-flush bg-transparent" id="accordionFlushExample2">
+                    <div class="accordion-item header2acc1 bg-transparent d-lg-inline-block">
+                      <h2 class="accordion-header" id="flush-headingAuxOne">
+                        <button class="accordion-button collapsed bg-transparent px-0 text-ochre1 me-1" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          <!-- <a href="#" class="text-decoration-none text-ochre1">Home</a> -->
+                          Home
+                        </button>
+                      </h2>
+                    </div>
+                    <div class="vr text-gray1 d-none d-lg-inline-block"></div>
+                    <div class="accordion-item bg-transparent d-lg-inline-block">
+                      <h2 class="accordion-header" id="flush-headingAuxTwo">
+                        <button class="accordion-button collapsed bg-transparent text-white px-0 header2tabs mx-1" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseAuxTwo" aria-expanded="false" aria-controls="flush-collapseAuxTwo">
+                          Shop
+                        </button>
+                      </h2>
+                      <div id="flush-collapseAuxTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingAuxTwo" data-bs-parent="#accordionFlushExample2">
+                        <div class="accordion-body">
+                          <ul class="list-group list-group-flush">
+                            <li class="list-group-item bg-transparent border-secondary">
+                              <a href="#" class="text-decoration-none text-white">Product Category</a>
+                            </li>
+                            <li class="list-group-item bg-transparent border-secondary">
+                              <a href="#" class="text-decoration-none text-white">Top rated product</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="vr text-gray1 d-none d-lg-inline-block"></div>
+                    <div class="accordion-item bg-transparent d-lg-inline-block">
+                      <h2 class="accordion-header" id="flush-headingAuxThree">
+                        <button class="accordion-button collapsed bg-transparent text-white px-0 header2tabs mx-1" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseAuxThree" aria-expanded="false" aria-controls="flush-collapseAuxThree">
+                          Blog
+                        </button>
+                      </h2>
+                      <div id="flush-collapseAuxThree" class="accordion-collapse collapse" aria-labelledby="flush-headingAuxThree" data-bs-parent="#accordionFlushExample2">
+                        <div class="accordion-body">
+                          <ul class="list-group list-group-flush">
+                            <li class="list-group-item bg-transparent border-secondary">
+                              <a href="#" class="text-decoration-none text-white">Left Sidebar</a>
+                            </li>
+                            <li class="list-group-item bg-transparent border-secondary">
+                              <a href="#" class="text-decoration-none text-white">Right Sidebar</a>
+                            </li>
+                            <li class="list-group-item bg-transparent border-secondary">
+                              <a href="#" class="text-decoration-none text-white">Full Width</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="vr text-gray1 d-none d-lg-inline-block"></div>
+                    <div class="accordion-item bg-transparent d-lg-inline-block">
+                      <h2 class="accordion-header" id="flush-headingAuxFour">
+                        <button class="accordion-button collapsed bg-transparent text-white px-0 header2tabs mx-1" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseAuxFour" aria-expanded="false" aria-controls="flush-collapseAuxFour">
+                          Media
+                        </button>
+                      </h2>
+                      <div id="flush-collapseAuxFour" class="accordion-collapse collapse" aria-labelledby="flush-headingAuxFour" data-bs-parent="#accordionFlushExample2">
+                        <div class="accordion-body">
+                          <ul class="list-group list-group-flush">
+                            <li class="list-group-item bg-transparent border-secondary">
+                              <a href="#" class="text-decoration-none text-white">Gallery</a>
+                            </li>
+                            <li class="list-group-item bg-transparent border-secondary">
+                              <a href="#" class="text-decoration-none text-white">Portfolio</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="vr text-gray1 d-none d-lg-inline-block"></div>
+                    <div class="accordion-item header2acc1 bg-transparent d-lg-inline-block">
+                      <h2 class="accordion-header" id="flush-headingAuxFive">
+                        <button class="accordion-button collapsed bg-transparent px-0 text-white header2tabs mx-1" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          <!-- <a href="#" class="text-decoration-none text-white">About Us</a> -->
+                          About Us
+                        </button>
+                      </h2>
+                    </div>
+                    <div class="vr text-gray1 d-none d-lg-inline-block"></div>
+                    <div class="accordion-item header2acc1 bg-transparent d-lg-inline-block">
+                      <h2 class="accordion-header" id="flush-headingAuxSix">
+                        <button class="accordion-button collapsed bg-transparent px-0 text-white header2tabs ms-1" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          <!-- <a href="#" class="text-decoration-none text-white">Contact Us</a> -->
+                          Contact Us
+                        </button>
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+            </div>
+
+            <div class="col-4 ms-auto">
+              <form class="d-flex flex-row">
+                <input class="form-control bg-bg1 border-0 rounded-0 rounded-start" type="search" placeholder="Search Products..." aria-label="Search">
+                <button class="btn btn-outline-success bg-bg1 border-0 rounded-0 text-white rounded-end" type="submit"><i class="fas fa-search"></i></button>
+              </form>
+            </div>
+          </nav>
+
+        </div><!-- header2 End-->
+
+        <div class="row" id="herosection">
+            <div id="carouselExampleCaptions" class="carousel slide g-0" data-bs-ride="false">
+                <div class="carousel-indicators d-md-none">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active rounded-circle mx-1" aria-current="true" aria-label="Slide 1" style="width: 0.8rem; height: 0.8rem;"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class="rounded-circle mx-1" style="width: 0.8rem; height: 0.8rem;"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="4000">
+                    <img src="images/Main-banner-01.jpg" class="d-block herosectioncarimg" alt="Image Not Found">
+                    <div class="carousel-caption d-block d-md-block herosectioncardiv">
+                      <div class="typewriter">
+                        <h5 class="text-white fs-6">Get Best Discount On All Flavor</h5>
+                      </div>
+                      <!-- <h5 class="text-white fs-6">Get Best Discount On All Flavor</h5> -->
+                      <p class="fs-2 fw-bold animate__animated animate__jackInTheBox animate__delay-2s">
+                        Most Popular Coffee Shop
+                      </p>
+                      <button type="button" class="btn btn-warning bg-ochre1 rounded-0 fs-6 mb-2 herosectionbtn animate__animated animate__fadeInUp animate__delay-3s fw-bold">VIEW MORE</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="1000">
+                    <img src="images/main-banner-2.jpg" class="d-block herosectioncarimg" alt="Image Not Found">
+                    <div class="carousel-caption d-block d-md-block herosectioncardiv">
+                      <div class="typewriter">
+                        <h5 class="text-white fs-6">Get Best Discount On All Flavor</h5>
+                        <!-- <h1>The cat and the hat.</h1> -->
+                      </div>
+                      <!-- <h5 class="text-white fs-6">Get Best Discount On All Flavor</h5> -->
+                      <p class="fs-2 fw-bold animate__animated animate__jackInTheBox animate__delay-2s">Buy Best Quality Coffee</p>
+                      <button type="button" class="btn btn-warning bg-ochre1 rounded-0 fs-6 mb-2 herosectionbtn fw-bold animate__animated animate__fadeInUp animate__delay-3s">VIEW MORE</button>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev d-none d-md-block" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="fas fa-chevron-left text-dark bg-ochre1 fs-3 lh-base" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next d-none d-md-block" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="fas fa-chevron-right text-dark bg-ochre1 fs-3 lh-base" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div><!-- herosection End-->
+
+        <div class="container">
+        <div class="row p-3 py-md-5 px-md-0 text-white d-flex justify-content-evenly justify-content-xxl-center" id="ordernow">
+
+            
+            
+            
+            
+            <div class="position-relative col-12 col-md-6 col-lg-5 overflow-hidden ordernowimg1">
+              <div data-aos="zoom-in">
+                <div class=" img-fluid mb-3 p-0 mb-md-0 m-0 overflow-hidden">
+                  <img src="images/ordernowbg1.html" class="img-fluid" alt="Image Not Found">
+                </div>
+                <div class="position-absolute top-50 start-0 end-lg-50 translate-middle oredernowp1">
+                  <h2 class="fs-2 fw-bold">Caffe</h2>
+                  <h3 class="fs-5 fw-light">Macchiato</h3>
+                  <p><a class="fs-6 text-white fw-bold" href="#"><small>ORDER NOW</small></a></p>
+                </div>
+              </div>
+            </div>
+            <div class="position-relative col-12 col-md-6 col-lg-5 overflow-hidden d-flex flex-row-reverse ordernowimg2">
+              <div data-aos="zoom-in">
+                <div class=" img-fluid mb-3 p-0 mb-md-0 m-0 overflow-hidden">
+                  <img src="images/ordernowbg2.html" class="img-fluid" alt="Image Not Found">
+                </div>
+                <div class="position-absolute top-50 start-50 translate-middle oredernowp2">
+                  <h2 class="fs-2 fw-bold">Sweet</h2>
+                  <h3 class="fs-5 fw-light">Cappuccino</h3>
+                  <p><a class="fs-6 text-white fw-bold" href="#"><small>ORDER NOW</small></a></p>
+                </div>
+              </div>
+            </div>
+            
+            
+            
+          </div>
+        </div><!-- ordernow End-->
+          
+        <div class="container">
+        <div class="row position-relative" id="product">
+
+            <div class="col-12">
+              <div data-aos="fade-up">
+                <h2 class="text-center text-md-start fs-5 fw-bold my-3">Featured Product</h2>
+              </div>
+          </div>
+          <div class="col-12">
+            <div class="owl-carousel owl-theme" id="caro1">
+              <div class="item">
+                <div class="card border-0 bg-transparent productcard">
+                  <div class="position-relative">
+                    <img src="images/product1.html" class="card-img-top rounded-0" alt="Image Not Found">
+                    <a href="#" class="fs-6 bg-ochre1 text-decoration-none text-dark text-center producteffect1 position-absolute bottom-0 w-100 p-2">ADD TO CART</a>
+                    <div class="col-12 producteffect2 position-absolute bottom-0">
+                    <ul class="list-group bg-transparent d-flex flex-row text-center justify-content-center">
+                      <li class="list-group-item bg-ochre1 rounded d-inline-block border-0 fs-6 bg-blue1 mx-1">
+                        <div class="text-center d-flex align-items-center" style="width: 1rem; height: 1rem;">
+                          <a href="#" class="text-white">
+                            <i class="far fa-eye text-dark"></i>
+                          </a>
+                        </div>
+                      </li>
+                      <li class="list-group-item bg-ochre1 rounded d-inline-block border-0 fs-6 bg-blue2 mx-1">
+                        <div class="text-center d-flex align-items-center" style="width: 1rem; height: 1rem;">
+                          <a href="#" class="text-white">
+                            <i class="fas fa-heart text-dark"></i>
+                          </a>
+                        </div>
+                      </li>
+                      <li class="list-group-item bg-ochre1 rounded d-inline-block border-0 fs-6 bg-blue2 mx-1">
+                        <div class="text-center d-flex align-items-center" style="width: 1rem; height: 1rem;">
+                          <a href="#" class="text-white">
+                            <i class="fas fa-compress-alt text-dark"></i>
+                          </a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-12 text-gray1">
+                        <i class="fas fa-star d-inline-block me-2 text-orange1" style="width: 0.3rem; height: 0.3rem;"></i>
+                        <i class="fas fa-star d-inline-block me-2 text-orange1" style="width: 0.3rem; height: 0.3rem;"></i>
+                        <i class="fas fa-star d-inline-block me-2 text-orange1" style="width: 0.3rem; height: 0.3rem;"></i>
+                        <i class="fas fa-star d-inline-block me-2 text-orange1" style="width: 0.3rem; height: 0.3rem;"></i>
+                        <i class="fas fa-star d-inline-block me-2" style="width: 0.3rem; height: 0.3rem;"></i>
+                      </div>
+                    </div>
+                    <h5 class="card-title fs-6 fw-bolder">Cranberry Juice</h5>
+                    <h6 class="card-title fs-6 fw-bolder text-brown1">$98.00</h6>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="card border-0 bg-transparent productcard">
+                  <div class="position-relative">
+                    <img src="images/product2.html" class="card-img-top rounded-0" alt="Image Not Found">
+                    <a href="#" class="fs-6 bg-ochre1 text-decoration-none text-dark text-center producteffect1 position-absolute bottom-0 w-100 p-2">ADD TO CART</a>
+                    <div class="col-12 producteffect2 position-absolute bottom-0">
+                    <ul class="list-group bg-transparent d-flex flex-row text-center justify-content-center">
+                      <li class="list-group-item bg-ochre1 rounded d-inline-block border-0 fs-6 bg-blue1 mx-1">
+                        <div class="text-center d-flex align-items-center" style="width: 1rem; height: 1rem;">
+                          <a href="#" class="text-white">
+                            <i class="far fa-eye text-dark"></i>
+                          </a>
+                        </div>
+                      </li>
+                      <li class="list-group-item bg-ochre1 rounded d-inline-block border-0 fs-6 bg-blue2 mx-1">
+                        <div class="text-center d-flex align-items-center" style="width: 1rem; height: 1rem;">
+                          <a href="#" class="text-white">
+                            <i class="fas fa-heart text-dark"></i>
+                          </a>
+                        </div>
+                      </li>
+                      <li class="list-group-item bg-ochre1 rounded d-inline-block border-0 fs-6 bg-blue2 mx-1">
+                        <div class="text-center d-flex align-items-center" style="width: 1rem; height: 1rem;">
+                          <a href="#" class="text-white">
+                            <i class="fas fa-compress-alt text-dark"></i>
+                          </a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-12 text-gray1">
+                        <i class="fas fa-star d-inline-block me-2 text-orange1" style="width: 0.3rem; height: 0.3rem;"></i>
+                        <i class="fas fa-star d-inline-block me-2 text-orange1" style="width: 0.3rem; height: 0.3rem;"></i>
+                        <i class="fas fa-star d-inline-block me-2 text-orange1" style="width: 0.3rem; height: 0.3rem;"></i>
+                        <i class="fas fa-star d-inline-block me-2" style="width: 0.3rem; height: 0.3rem;"></i>
+                        <i class="fas fa-star d-inline-block me-2" style="width: 0.3rem; height: 0.3rem;"></i>
+                      </div>
+                    </div>
+                    <h5 class="card-title fs-6 fw-bolder">Frozen Fruit</h5>
+                    <h6 class="card-title fs-6 fw-bolder text-brown1">$100.00</h6>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="card border-0 bg-transparent productcard">
+                  <div class="position-relative">
+                    <img src="images/20-277x350.html" class="card-img-top rounded-0" alt="Image Not Found">
+                    <a href="#" class="fs-6 bg-ochre1 text-decoration-none text-dark text-center producteffect1 position-absolute bottom-0 w-100 p-2">ADD TO CART</a>
+                    <div class="col-12 producteffect2 position-absolute bottom-0">
+                    <ul class="list-group bg-transparent d-flex flex-row text-center justify-content-center">
+                      <li class="list-group-item bg-ochre1 rounded d-inline-block border-0 fs-6 bg-blue1 mx-1">
+                        <div class="text-center d-flex align-items-center" style="width: 1rem; height: 1rem;">
+                          <a href="#" class="text-white">
+                            <i class="far fa-eye text-dark"></i>
+                          </a>
+                        </div>
+                      </li>
+                      <li class="list-group-item bg-ochre1 rounded d-inline-block border-0 fs-6 bg-blue2 mx-1">
+                        <div class="text-center d-flex align-items-center" style="width: 1rem; height: 1rem;">
+                          <a href="#" class="text-white">
+                            <i class="fas fa-heart text-dark"></i>
+                          </a>
+                        </div>
+                      </li>
+                      <li class="list-group-item bg-ochre1 rounded d-inline-block border-0 fs-6 bg-blue2 mx-1">
+                        <div class="text-center d-flex align-items-center" style="width: 1rem; height: 1rem;">
+                          <a href="#" class="text-white">
+                            <i class="fas fa-compress-alt text-dark"></i>
+                          </a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-12 text-gray1">
+                        <i class="fas fa-star d-inline-block me-2 text-orange1" style="width: 0.3rem; height: 0.3rem;"></i>
+                        <i class="fas fa-star d-inline-block me-2 text-orange1" style="width: 0.3rem; height: 0.3rem;"></i>
+                        <i class="fas fa-star d-inline-block me-2 text-orange1" style="width: 0.3rem; height: 0.3rem;"></i>
+                        <i class="fas fa-star d-inline-block me-2 text-orange1" style="width: 0.3rem; height: 0.3rem;"></i>
+                        <i class="fas fa-star d-inline-block me-2" style="width: 0.3rem; height: 0.3rem;"></i>
+                      </div>
+                    </div>
+                    <h5 class="card-title fs-6 fw-bolder">Enoki Mushroom</h5>
+                    <h6 class="card-title fs-6 fw-bolder text-brown1">$98.00</h6>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="card border-0 bg-transparent productcard">
+                  <div class="position-relative">
+                    <img src="images/2-277x350.html" class="card-img-top rounded-0" alt="Image Not Found">
+                    <a href="#" class="fs-6 bg-ochre1 text-decoration-none text-dark text-center producteffect1 position-absolute bottom-0 w-100 p-2">ADD TO CART</a>
+                    <div class="col-12 producteffect2 position-absolute bottom-0">
+                    <ul class="list-group bg-transparent d-flex flex-row text-center justify-content-center">
+                      <li class="list-group-item bg-ochre1 rounded d-inline-block border-0 fs-6 bg-blue1 mx-1">
+                        <div class="text-center d-flex align-items-center" style="width: 1rem; height: 1rem;">
+                          <a href="#" class="text-white">
+                            <i class="far fa-eye text-dark"></i>
+                          </a>
+                        </div>
+                      </li>
+                      <li class="list-group-item bg-ochre1 rounded d-inline-block border-0 fs-6 bg-blue2 mx-1">
+                        <div class="text-center d-flex align-items-center" style="width: 1rem; height: 1rem;">
+                          <a href="#" class="text-white">
+                            <i class="fas fa-heart text-dark"></i>
+                          </a>
+                        </div>
+                      </li>
+                      <li class="list-group-item bg-ochre1 rounded d-inline-block border-0 fs-6 bg-blue2 mx-1">
+                        <div class="text-center d-flex align-items-center" style="width: 1rem; height: 1rem;">
+                          <a href="#" class="text-white">
+                            <i class="fas fa-compress-alt text-dark"></i>
+                          </a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-12 text-gray1">
+                        <i class="fas fa-star d-inline-block me-2 text-orange1" style="width: 0.3rem; height: 0.3rem;"></i>
+                        <i class="fas fa-star d-inline-block me-2 text-orange1" style="width: 0.3rem; height: 0.3rem;"></i>
+                        <i class="fas fa-star d-inline-block me-2 text-orange1" style="width: 0.3rem; height: 0.3rem;"></i>
+                        <i class="fas fa-star d-inline-block me-2" style="width: 0.3rem; height: 0.3rem;"></i>
+                        <i class="fas fa-star d-inline-block me-2" style="width: 0.3rem; height: 0.3rem;"></i>
+                      </div>
+                    </div>
+                    <h5 class="card-title fs-6 fw-bolder">Ornare Sed Consequat</h5>
+                    <h6 class="card-title fs-6 fw-bolder text-brown1">$150.00</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-auto position-absolute d-md-none top-50 start-0 border bg-white border-gray1 ms-1 py-1">
+            <span class="fas fa-long-arrow-alt-left m-0"></span>
+          </div>
+          <div class="col-auto position-absolute d-md-none top-50 end-0 border bg-white border-gray1 me-1 py-1">
+            <span class="fas fa-long-arrow-alt-right m-0"></span>
+          </div>
+
+          <div class="col-auto position-absolute d-none d-md-block top-0 end-0 me-5 border bg-white border-gray1 ms-1 py-1">
+            <span class="fas fa-long-arrow-alt-left m-0"></span>
+          </div>
+          <div class="col-auto position-absolute d-none d-md-block top-0 end-0 border bg-white border-gray1 me-1 py-1">
+            <span class="fas fa-long-arrow-alt-right m-0"></span>
+          </div> -->
+
+        </div>
+      </div><!-- product End-->
+
+        <div class="row text-center text-white py-md-5" id="discount">
+          <div class="col-4 mx-auto">
+            <div data-aos="flip-left" data-aos-easing="ease-out-cubic"
+            data-aos-duration="1500">
+              <img src="images/tag.png" class="my-3 img-fluid" alt="Image Not Found">
+            </div>
+          </div>
+          <div data-aos="fade-down" data-aos-delay="300">
+            <h2 class="fs-4 fw-lighter my-md-4">Get Best Discount On</h2>
+          </div>
+          <div data-aos="fade-down" data-aos-delay="600">
+            <h3 class="fs-4 fw-bolder mb-3">All Different Types Coffee</h3>
+          </div>
+        </div><!-- discount End-->
+
+        <div class="row bg-bg2 py-3 px-2 text-white d-xl-flex justify-content-xl-center" id="services">
+          <div class="col-12 col-md-4 col-xl-3 col-xxl-2 mb-4 mt-xl-4 text-md-center text-xl-start servicesdet">
+            <div data-aos="flip-down">
+              <span class="bg-white float-start float-md-none float-xl-start rounded-circle text-center me-3 mt-2 me-md-0 pt-md-4 pb-md-2 servicesicon d-xl-flex align-items-xl-center justify-content-xl-center mb-xl-2 pb-xl-4 me-xl-3" style="width: 3.5rem; height: 3.5rem;">
+                <i class="fas fa-coffee text-bg2 fs-1 p-2 lh-base"></i>
+              </span>
+              <div>
+                <h2 class="fs-6 fw-bolder">Lots Of Coffee</h2>
+                <p class="fs-6 mb-0">Praesent pulvinar neque pellentes.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-xl-3 col-xxl-2 mb-4 mt-xl-4 text-md-center text-xl-start servicesdet">
+            <div data-aos="flip-down" data-aos-delay="300">
+              <span class="bg-white float-start float-md-none float-xl-start rounded-circle text-center me-3 mt-2 me-md-0 pt-md-4 pb-md-2 servicesicon d-xl-flex align-items-xl-center justify-content-xl-center mb-xl-2 pb-xl-4 me-xl-3" style="width: 3.5rem; height: 3.5rem;">
+                <i class="fas fa-truck text-bg2 fs-1 p-2 lh-base"></i>
+              </span>
+              <div>
+                <h2 class="fs-6 fw-bolder">On Time Delivery</h2>
+                <p class="fs-6 mb-0">Praesent pulvinar neque pellentes.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-xl-3 col-xxl-2 mt-xl-4 text-md-center text-xl-start servicesdet">
+            <div data-aos="flip-down" data-aos-delay="600">
+              <span class="bg-white float-start float-md-none float-xl-start rounded-circle text-center me-3 mt-2 me-md-0 pt-md-4 pb-md-2 servicesicon d-xl-flex align-items-xl-center justify-content-xl-center mb-xl-2 pb-xl-4 me-xl-3" style="width: 3.5rem; height: 3.5rem;">
+                <i class="fas fa-headphones-alt text-bg2 fs-1 p-2 lh-base"></i>
+              </span>
+              <div>
+                <h2 class="fs-6 fw-bolder">24 x 7 Online Support</h2>
+                <p class="fs-6 mb-0">Praesent pulvinar neque pellentes.</p>
+              </div>
+            </div>
+          </div>
+        </div><!-- services End-->
+
+
+
+        <div class="container">
+        <div class="row p-3 py-md-5 px-md-0 d-flex justify-content-evenly justify-content-xxl-center" id="ordernow2">
+
+            
+            
+            
+            <div class="position-relative col-12 col-md-6 col-lg-5 overflow-hidden ordernow2img1">
+            <div class=" mb-3 p-0 mb-md-0 m-0 overflow-hidden">
+              <img src="images/ordernow1.html" class="img-fluid" alt="Image Not Found">
+            </div>
+            <div class="position-absolute top-0 start-0 oreder2nowp1">
+              <div data-aos="fade-up" data-aos-duration="1000">
+                <h2 class="fs-5 fw-bold">Fresh</h2>
+                <h3 class="fs-1">Coffee Beans</h3>
+                <h4 class="mb-3 text-brown2 fw-bolder">20% <span class="fs-6 fw-lighter">OFF</span></h4>
+              </div>
+            </div>
+          </div>
+          <div class="position-relative col-12 col-md-6 col-lg-5 overflow-hidden d-flex flex-row-reverse ordernow2img2">
+            <div class=" mb-3 p-0 mb-md-0 m-0 overflow-hidden">
+              <img src="images/ordernow2.html" class="img-fluid" alt="Image Not Found">
+            </div>
+            <div class="position-absolute top-0 start-0 oreder2nowp2">
+              <div data-aos="fade-down" data-aos-duration="1000">
+                <h2 class="fs-5 fw-bold">Dark</h2>
+                <h3 class="fs-1">Pure Coffee</h3>
+                <h4 class="mb-3 text-brown2 fw-bolder">30% <span class="fs-6 fw-lighter">OFF</span></h4>
+              </div>
+            </div>
+          </div>
+          
+          
+          
+          
+          
+          
+          <!-- <div class="position-relative col-12 col-md-5 col-xxl-3 overflow-hidden">
+            <div class="ordernow2img1 mb-3 p-0 mb-md-0 m-0 overflow-hidden">
+              <img src="images/ordernow1.html" class="img-fluid" alt="Image Not Found">
+            </div>
+            <div class="position-absolute top-0 start-0 oreder2nowp1">
+              <h2 class="fs-5 fw-bold">Fresh</h2>
+              <h3 class="fs-1">Coffee Beans</h3>
+              <h4 class="mb-3 text-brown2 fw-bolder">20% <span class="fs-6 fw-lighter">OFF</span></h4>
+            </div>
+          </div>
+          <div class="position-relative col-12 col-md-5 col-xxl-3 overflow-hidden d-flex flex-row-reverse">
+            <div class="ordernow2img2 mb-3 p-0 mb-md-0 m-0 overflow-hidden">
+              <img src="images/ordernow2.html" class="img-fluid" alt="Image Not Found">
+            </div>
+            <div class="position-absolute top-0 start-0 oreder2nowp2">
+              <h2 class="fs-5 fw-bold">Dark</h2>
+              <h3 class="fs-1">Pure Coffee</h3>
+              <h4 class="mb-3 text-brown2 fw-bolder">30% <span class="fs-6 fw-lighter">OFF</span></h4>
+            </div>
+          </div> -->
+          
+          
+          
+          <!-- <div class="col-12 col-md-5 ordernow2img1 mb-3 mb-md-0 p-2">
+            <div class="ms-5 ps-5">
+              <h2 class="fs-5 fw-bold mt-3">Fresh</h2>
+              <h3 class="fs-1">Coffee Beans</h3>
+              <h4 class="mb-3 text-brown2 fw-bolder">20% <span class="fs-6 fw-lighter">OFF</span></h4>
+            </div>
+          </div>
+          <div class="col-12 col-md-5 ordernow2img2 p-2">
+            <h2 class="fs-5 fw-bold mt-3">Dark</h2>
+            <h3 class="fs-1">Pure Coffee</h3>
+            <h4 class="mb-3 text-brown2 fw-bolder">30% <span class="fs-6 fw-lighter">OFF</span></h4>
+          </div> -->
+          
+          
+          
+          
+          
+          
+        </div>
+      </div><!-- ordernow2 End-->
+        
+        <div class="container">
+        <div class="row position-relative" id="product2">
+
+            <div class="col-12">
+              <div data-aos="fade-up">
+                <h2 class="text-center text-md-start fs-5 fw-bold my-3">Bestseller Products</h2>
+              </div>
+          </div>
+          <div class="col-12">
+            <div class="owl-carousel owl-theme" id="caro2">
+              <div class="item">
+                <div class="card border-0 bg-transparent productcard">
+                  <div class="position-relative">
+                    <img src="images/6-277x350.html" class="card-img-top rounded-0" alt="Image Not Found">
+                    <a href="#" class="fs-6 bg-ochre1 text-decoration-none text-dark text-center producteffect1 position-absolute bottom-0 w-100 p-2">ADD TO CART</a>
+                    <div class="col-12 producteffect2 position-absolute bottom-0">
+                    <ul class="list-group bg-transparent d-flex flex-row text-center justify-content-center">
+                      <li class="list-group-item bg-ochre1 rounded d-inline-block border-0 fs-6 bg-blue1 mx-1">
+                        <div class="text-center d-flex align-items-center" style="width: 1rem; height: 1rem;">
+                          <a href="#" class="text-white">
+                            <i class="far fa-eye text-dark"></i>
+                          </a>
+                        </div>
+                      </li>
+                      <li class="list-group-item bg-ochre1 rounded d-inline-block border-0 fs-6 bg-blue2 mx-1">
+                        <div class="text-center d-flex align-items-center" style="width: 1rem; height: 1rem;">
+                          <a href="#" class="text-white">
+                            <i class="fas fa-heart text-dark"></i>
+                          </a>
+                        </div>
+                      </li>
+                      <li class="list-group-item bg-ochre1 rounded d-inline-block border-0 fs-6 bg-blue2 mx-1">
+                        <div class="text-center d-flex align-items-center" style="width: 1rem; height: 1rem;">
+                          <a href="#" class="text-white">
+                            <i class="fas fa-compress-alt text-dark"></i>
+                          </a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  </div>
+                  <!-- <img src="images/product1.html" class="card-img-top rounded-0" alt="Image Not Found"> -->
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-12 text-gray1">
+                        <i class="fas fa-star d-inline-block me-2 text-orange1" style="width: 0.3rem; height: 0.3rem;"></i>
+                        <i class="fas fa-star d-inline-block me-2 text-orange1" style="width: 0.3rem; height: 0.3rem;"></i>
+                        <i class="fas fa-star d-inline-block me-2 text-orange1" style="width: 0.3rem; height: 0.3rem;"></i>
+                        <i class="fas fa-star d-inline-block me-2 text-orange1" style="width: 0.3rem; height: 0.3rem;"></i>
+                        <i class="fas fa-star d-inline-block me-2" style="width: 0.3rem; height: 0.3rem;"></i>
+                      </div>
+                    </div>
+                    <h5 class="card-title fs-6 fw-bolder">Cranberry Juice</h5>
+                    <h6 class="card-title fs-6 fw-bolder text-brown1">$98.00</h6>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="card border-0 bg-transparent productcard">
+                  <div class="position-relative">
+                    <img src="images/10-277x350.html" class="card-img-top rounded-0" alt="Image Not Found">
+                    <a href="#" class="fs-6 bg-ochre1 text-decoration-none text-dark text-center producteffect1 position-absolute bottom-0 w-100 p-2">ADD TO CART</a>
+                    <div class="col-12 producteffect2 position-absolute bottom-0">
+                    <ul class="list-group bg-transparent d-flex flex-row text-center justify-content-center">
+                      <li class="list-group-item bg-ochre1 rounded d-inline-block border-0 fs-6 bg-blue1 mx-1">
+                        <div class="text-center d-flex align-items-center" style="width: 1rem; height: 1rem;">
+                          <a href="#" class="text-white">
+                            <i class="far fa-eye text-dark"></i>
+                          </a>
+                        </div>
+                      </li>
+                      <li class="list-group-item bg-ochre1 rounded d-inline-block border-0 fs-6 bg-blue2 mx-1">
+                        <div class="text-center d-flex align-items-center" style="width: 1rem; height: 1rem;">
+                          <a href="#" class="text-white">
+                            <i class="fas fa-heart text-dark"></i>
+                          </a>
+                        </div>
+                      </li>
+                      <li class="list-group-item bg-ochre1 rounded d-inline-block border-0 fs-6 bg-blue2 mx-1">
+                        <div class="text-center d-flex align-items-center" style="width: 1rem; height: 1rem;">
+                          <a href="#" class="text-white">
+                            <i class="fas fa-compress-alt text-dark"></i>
+                          </a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  </div>
+                  <!-- <img src="images/product2.html" class="card-img-top rounded-0" alt="Image Not Found"> -->
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-12 text-gray1">
+                        <i class="fas fa-star d-inline-block me-2 text-orange1" style="width: 0.3rem; height: 0.3rem;"></i>
+                        <i class="fas fa-star d-inline-block me-2 text-orange1" style="width: 0.3rem; height: 0.3rem;"></i>
+                        <i class="fas fa-star d-inline-block me-2 text-orange1" style="width: 0.3rem; height: 0.3rem;"></i>
+                        <i class="fas fa-star d-inline-block me-2" style="width: 0.3rem; height: 0.3rem;"></i>
+                        <i class="fas fa-star d-inline-block me-2" style="width: 0.3rem; height: 0.3rem;"></i>
+                      </div>
+                    </div>
+                    <h5 class="card-title fs-6 fw-bolder">Frozen Fruit</h5>
+                    <h6 class="card-title fs-6 fw-bolder text-brown1">$100.00</h6>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="card border-0 bg-transparent productcard">
+                  <div class="position-relative">
+                    <img src="images/8-277x350.html" class="card-img-top rounded-0" alt="Image Not Found">
+                    <a href="#" class="fs-6 bg-ochre1 text-decoration-none text-dark text-center producteffect1 position-absolute bottom-0 w-100 p-2">ADD TO CART</a>
+                    <div class="col-12 producteffect2 position-absolute bottom-0">
+                    <ul class="list-group bg-transparent d-flex flex-row text-center justify-content-center">
+                      <li class="list-group-item bg-ochre1 rounded d-inline-block border-0 fs-6 bg-blue1 mx-1">
+                        <div class="text-center d-flex align-items-center" style="width: 1rem; height: 1rem;">
+                          <a href="#" class="text-white">
+                            <i class="far fa-eye text-dark"></i>
+                          </a>
+                        </div>
+                      </li>
+                      <li class="list-group-item bg-ochre1 rounded d-inline-block border-0 fs-6 bg-blue2 mx-1">
+                        <div class="text-center d-flex align-items-center" style="width: 1rem; height: 1rem;">
+                          <a href="#" class="text-white">
+                            <i class="fas fa-heart text-dark"></i>
+                          </a>
+                        </div>
+                      </li>
+                      <li class="list-group-item bg-ochre1 rounded d-inline-block border-0 fs-6 bg-blue2 mx-1">
+                        <div class="text-center d-flex align-items-center" style="width: 1rem; height: 1rem;">
+                          <a href="#" class="text-white">
+                            <i class="fas fa-compress-alt text-dark"></i>
+                          </a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  </div>
+                  <!-- <img src="images/product2.html" class="card-img-top rounded-0" alt="Image Not Found"> -->
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-12 text-gray1">
+                        <i class="fas fa-star d-inline-block me-2 text-orange1" style="width: 0.3rem; height: 0.3rem;"></i>
+                        <i class="fas fa-star d-inline-block me-2 text-orange1" style="width: 0.3rem; height: 0.3rem;"></i>
+                        <i class="fas fa-star d-inline-block me-2 text-orange1" style="width: 0.3rem; height: 0.3rem;"></i>
+                        <i class="fas fa-star d-inline-block me-2" style="width: 0.3rem; height: 0.3rem;"></i>
+                        <i class="fas fa-star d-inline-block me-2" style="width: 0.3rem; height: 0.3rem;"></i>
+                      </div>
+                    </div>
+                    <h5 class="card-title fs-6 fw-bolder">Zest Jackfruit</h5>
+                    <h6 class="card-title fs-6 fw-bolder text-brown1">$100.00</h6>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="card border-0 bg-transparent productcard">
+                  <div class="position-relative">
+                    <img src="images/9-277x350.html" class="card-img-top rounded-0" alt="Image Not Found">
+                    <a href="#" class="fs-6 bg-ochre1 text-decoration-none text-dark text-center producteffect1 position-absolute bottom-0 w-100 p-2">ADD TO CART</a>
+                    <div class="col-12 producteffect2 position-absolute bottom-0">
+                    <ul class="list-group bg-transparent d-flex flex-row text-center justify-content-center">
+                      <li class="list-group-item bg-ochre1 rounded d-inline-block border-0 fs-6 bg-blue1 mx-1">
+                        <div class="text-center d-flex align-items-center" style="width: 1rem; height: 1rem;">
+                          <a href="#" class="text-white">
+                            <i class="far fa-eye text-dark"></i>
+                          </a>
+                        </div>
+                      </li>
+                      <li class="list-group-item bg-ochre1 rounded d-inline-block border-0 fs-6 bg-blue2 mx-1">
+                        <div class="text-center d-flex align-items-center" style="width: 1rem; height: 1rem;">
+                          <a href="#" class="text-white">
+                            <i class="fas fa-heart text-dark"></i>
+                          </a>
+                        </div>
+                      </li>
+                      <li class="list-group-item bg-ochre1 rounded d-inline-block border-0 fs-6 bg-blue2 mx-1">
+                        <div class="text-center d-flex align-items-center" style="width: 1rem; height: 1rem;">
+                          <a href="#" class="text-white">
+                            <i class="fas fa-compress-alt text-dark"></i>
+                          </a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  </div>
+                  <!-- <img src="images/product2.html" class="card-img-top rounded-0" alt="Image Not Found"> -->
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-12 text-gray1">
+                        <i class="fas fa-star d-inline-block me-2 text-orange1" style="width: 0.3rem; height: 0.3rem;"></i>
+                        <i class="fas fa-star d-inline-block me-2 text-orange1" style="width: 0.3rem; height: 0.3rem;"></i>
+                        <i class="fas fa-star d-inline-block me-2 text-orange1" style="width: 0.3rem; height: 0.3rem;"></i>
+                        <i class="fas fa-star d-inline-block me-2" style="width: 0.3rem; height: 0.3rem;"></i>
+                        <i class="fas fa-star d-inline-block me-2" style="width: 0.3rem; height: 0.3rem;"></i>
+                      </div>
+                    </div>
+                    <h5 class="card-title fs-6 fw-bolder">Braeburn Apples</h5>
+                    <h6 class="card-title fs-6 fw-bolder text-brown1">$110.00</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <!-- <div class="col-auto position-absolute d-md-none top-50 start-0 border bg-white border-gray1 ms-1 py-1">
+            <span class="fas fa-long-arrow-alt-left m-0"></span>
+          </div>
+          <div class="col-auto position-absolute d-md-none top-50 end-0 border bg-white border-gray1 me-1 py-1">
+            <span class="fas fa-long-arrow-alt-right m-0"></span>
+          </div>
+          <div class="col-auto position-absolute d-none d-md-block top-0 end-0 me-5 border bg-white border-gray1 ms-1 py-1">
+            <span class="fas fa-long-arrow-alt-left m-0"></span>
+          </div>
+          <div class="col-auto position-absolute d-none d-md-block top-0 end-0 border bg-white border-gray1 me-1 py-1">
+            <span class="fas fa-long-arrow-alt-right m-0"></span>
+          </div> -->
+        </div>
+      </div><!-- product2 End-->
+
+      <div class="container">
+        <div class="row" id="feedback">
+
+            <div id="carouselExampleCaptions2" class="carousel slide" data-bs-ride="false">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="0" class="active rounded-circle mx-1" aria-current="true" aria-label="Slide 1" style="width: 0.8rem; height: 0.8rem;"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="1" aria-label="Slide 2" class="rounded-circle mx-1" style="width: 0.8rem; height: 0.8rem;"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="2" aria-label="Slide 3" class="rounded-circle mx-1" style="width: 0.8rem; height: 0.8rem;"></button>
+              </div>
+              <div class="carousel-inner feedbackcarousel text-white p-3">
+                <div class="carousel-item active text-center">
+                    <i class="fas fa-quote-left my-3 text-ochre1"></i>
+                    <p class="fs-6 w-75 mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected of passages ofeven alteration in some form, by injected of passages</p>
+                    <h5 class="fs-6 fw-bold mb-5">PEPPER STARK</h5>
+                </div>
+                <div class="carousel-item text-center">
+                    <i class="fas fa-quote-left my-3 text-ochre1"></i>
+                    <p class="fs-6 w-75 mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected of passages ofeven alteration in some form, by injected of passages</p>
+                    <h5 class="fs-6 fw-bold mb-5">LOUIS LITT</h5>
+                </div>
+                <div class="carousel-item text-center">
+                  <i class="fas fa-quote-left my-3 text-ochre1"></i>
+                  <p class="fs-6 w-75 mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected of passages ofeven alteration in some form, by injected of passages</p>
+                  <h5 class="fs-6 fw-bold mb-5">HARVEY SPECTER</h5>
+                </div>
+              </div>
+              <button class="carousel-control-prev d-none" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next d-none" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div><!-- feedback End-->
+
+        <div class="container">
+      <div class="row position-relative d-flex flex-row justify-content-center align-items-center" id="clients">
+
+          <div class="col-12">
+            <div class="owl-carousel owl-theme" id="caro3">
+              <div class="item">
+              <img src="images/brand-1.png" class="img-fluid clientsimg mx-auto my-4" alt="Image Not Found" style="width: 7rem;">
+            </div>
+            <div class="item">
+              <img src="images/brand-2.png" class="img-fluid clientsimg mx-auto my-4" alt="Image Not Found" style="width: 7rem;">
+            </div>
+            <div class="item">
+              <img src="images/brand-3.png" class="img-fluid clientsimg mx-auto my-4" alt="Image Not Found" style="width: 7rem;">
+            </div>
+            <div class="item">
+              <img src="images/brand-4.png" class="img-fluid clientsimg mx-auto my-4" alt="Image Not Found" style="width: 7rem;">
+            </div>
+            <div class="item">
+              <img src="images/brand-4.png" class="img-fluid clientsimg mx-auto my-4" alt="Image Not Found" style="width: 7rem;">
+            </div>
+        </div>
+        </div>
+        <!-- <div class="col-4 col-md-3 col-lg-2 p-2 my-3">
+          <img src="images/brand-1.png" class="img-fluid clientsimg" alt="Image Not Found">
+        </div> -->
+        <!-- <div class="col-4 col-md-3 col-lg-2 p-2 my-3">
+          <img src="images/brand-2.png" class="img-fluid clientsimg" alt="Image Not Found">
+        </div> -->
+        <!-- <div class="col-4 col-md-3 col-lg-2 d-none d-md-block p-2 my-3">
+          <img src="images/brand-3.png" class="img-fluid clientsimg" alt="Image Not Found">
+        </div> -->
+        <!-- <div class="col-4 col-md-3 col-lg-2 d-none d-md-block p-2 my-3">
+          <img src="images/brand-4.png" class="img-fluid clientsimg" alt="Image Not Found">
+        </div> -->
+        <!-- <div class="col-4 col-md-3 col-lg-2 d-none d-lg-block p-2 my-3">
+          <img src="images/brand-4.png" class="img-fluid clientsimg" alt="Image Not Found">
+        </div> -->
+        <!-- <div class="col-auto position-absolute top-20 start-0 border bg-white border-gray1 ms-1 py-1">
+          <span class="fas fa-long-arrow-alt-left m-0"></span>
+        </div>
+        <div class="col-auto position-absolute top-20 end-0 border bg-white border-gray1 me-1 py-1">
+          <span class="fas fa-long-arrow-alt-right m-0"></span>
+        </div> -->
+      </div>
+    </div><!-- clients End-->
+
+
+
+    <div class="container">
+      <div class="row position-relative px-2" id="blog">
+
+          <div class="col-12">
+            <div data-aos="fade-up">
+              <h2 class="text-center text-md-start fs-5 fw-bold my-3 blogh2">From The Blogs</h2>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="owl-carousel owl-theme" id="caro4">
+              <div class="item">
+                <div class="card border-0 bg-transparent productcard">
+                  <div class="position-relative">
+                    <img src="images/blog1.html" class="card-img-top rounded-0" alt="Image Not Found">
+                    <div class="col-12 producteffect2 position-absolute bottom-0">
+                    <ul class="list-group bg-transparent d-flex flex-row text-center justify-content-center">
+                      <li class="list-group-item bg-ochre1 rounded-0 d-inline-block border-0 fs-6 bg-blue1 mx-1">
+                        <div class="text-center d-flex align-items-center" style="width: 1rem; height: 1rem;">
+                          <a href="#" class="text-white">
+                            <i class="fas fa-plus text-dark"></i>
+                          </a>
+                        </div>
+                      </li>
+                      <li class="list-group-item bg-ochre1 rounded-0 d-inline-block border-0 fs-6 bg-blue2 mx-1">
+                        <div class="text-center d-flex align-items-center" style="width: 1rem; height: 1rem;">
+                          <a href="#" class="text-white">
+                            <i class="fas fa-link text-dark"></i>
+                          </a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  </div>
+                <!-- <img src="images/blog1.html" class="card-img-top rounded-0" alt="Image Not Found"> -->
+                <div class="card-body px-0">
+                  <h5 class="card-title fs-6 fw-bolder">Anyway REPS is a NYC agency representing photographers</h5>
+                  <p class="fs-6 text-gray2">We love these outfits styled by Phyllis Evans Baker for a Calvin Klein collaboration with the Marie Claire &</p>
+                  <p><a class="fs-6 text-ochre1 fw-bold" href="#">READ MORE</a></p>
+                </div>
+              </div>
+              <div class="position-absolute top-0 left-0 bg-ochre1 p-2 pb-0 m-2">
+                <h2 class="fs-6">4th Feb, 2017</h2>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card border-0 bg-transparent productcard">
+                <div class="position-relative">
+                  <img src="images/blog2.html" class="card-img-top rounded-0" alt="Image Not Found">
+                  <div class="col-12 producteffect2 position-absolute bottom-0">
+                  <ul class="list-group bg-transparent d-flex flex-row text-center justify-content-center">
+                    <li class="list-group-item bg-ochre1 rounded-0 d-inline-block border-0 fs-6 bg-blue1 mx-1">
+                      <div class="text-center d-flex align-items-center" style="width: 1rem; height: 1rem;">
+                        <a href="#" class="text-white">
+                          <i class="fas fa-plus text-dark"></i>
+                        </a>
+                      </div>
+                    </li>
+                    <li class="list-group-item bg-ochre1 rounded-0 d-inline-block border-0 fs-6 bg-blue2 mx-1">
+                      <div class="text-center d-flex align-items-center" style="width: 1rem; height: 1rem;">
+                        <a href="#" class="text-white">
+                          <i class="fas fa-link text-dark"></i>
+                        </a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                </div>
+                <!-- <img src="images/blog2.html" class="card-img-top rounded-0" alt="Image Not Found"> -->
+                <div class="card-body px-0">
+                  <h5 class="card-title fs-6 fw-bolder">Anyway REPS is a NYC agency representing photographers</h5>
+                  <p class="fs-6 text-gray2">We love these outfits styled by Phyllis Evans Baker for a Calvin Klein collaboration with the Marie Claire &</p>
+                  <p><a class="fs-6 text-ochre1 fw-bold" href="#">READ MORE</a></p>
+                </div>
+              </div>
+              <div class="position-absolute top-0 left-0 bg-ochre1 p-2 pb-0 m-2">
+                <h2 class="fs-6">4th Feb, 2017</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        </div>
+      </div><!-- blog End-->
+
+    <div class="row bg-bg2 text-white text-center py-3 pt-md-4" id="join">
+      <div class="container d-flex flex-wrap justify-content-xxl-center">
+
+        <div class="col-12 col-md-8 col-lg-6 col-xl-4 col-xxl-3 mx-md-auto me-xxl-0">
+          <i class="fas fa-envelope-open-text mb-2 float-md-start ms-md-4"></i>
+          <h2 class="fs-6 fw-bolder">Join the Community to be Updated Firstly ?</h2>
+          <p class="text-gray3 fs-6">Signup for our newletter and promotion</p>
+        </div>
+        <div class="col-12 col-md-8 col-lg-6 col-xl-4 col-xxl-3 mx-md-auto ms-xxl-0">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control rounded-0 py-2" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-outline-dark bg-ochre1 border-0 rounded-0 fs-6 py-2 fw-bold" type="button" id="button-addon2">SUBSCRIBE</button>
+          </div>
+        </div>
+      </div>
+    </div><!-- join End-->
+
+    <div class="row bg-bg1 py-4" id="footer">
+      <div class="col-12">
+        <div class="accordion accordion-flush d-lg-none" id="accordionFlushExample3">
+          <div class="accordion-item bg-transparent border border-0">
+            <h2 class="accordion-header" id="flush-headingFooterOne">
+              <button class="accordion-button collapsed bg-transparent text-white fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                About
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingFooterOne" data-bs-parent="#accordionFlushExample3">
+              <div class="accordion-body">
+                <ul class="bg-bg1 ps-0">
+                  <li class="list-group-item bg-transparent border-0 ps-0"><a class="text-decoration-none text-gray2" href="#">Contact Us</a></li>
+                  <li class="list-group-item bg-transparent border-0 ps-0"><a class="text-decoration-none text-gray2" href="#">About Us</a></li>
+                  <li class="list-group-item bg-transparent border-0 ps-0"><a class="text-decoration-none text-gray2" href="#">Careers</a></li>
+                  <li class="list-group-item bg-transparent border-0 ps-0"><a class="text-decoration-none text-gray2" href="#">Flipkart Stories</a></li>
+                  <li class="list-group-item bg-transparent border-0 ps-0"><a class="text-decoration-none text-gray2" href="#">Press</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item bg-transparent border border-0">
+            <h2 class="accordion-header" id="flush-headingFooterTwo">
+              <button class="accordion-button collapsed bg-transparent text-white fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                Help
+              </button>
+            </h2>
+            <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingFooterTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <ul class="bg-bg1 ps-0">
+                  <li class="list-group-item bg-transparent border-0 ps-0"><a class="text-decoration-none text-gray2" href="#">Payments</a></li>
+                  <li class="list-group-item bg-transparent border-0 ps-0"><a class="text-decoration-none text-gray2" href="#">Shipping</a></li>
+                  <li class="list-group-item bg-transparent border-0 ps-0"><a class="text-decoration-none text-gray2" href="#">Cancellation & Returns</a></li>
+                  <li class="list-group-item bg-transparent border-0 ps-0"><a class="text-decoration-none text-gray2" href="#">FAQ Report</a></li>
+                  <li class="list-group-item bg-transparent border-0 ps-0"><a class="text-decoration-none text-gray2" href="#">Infringemen</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item bg-transparent border border-0">
+            <h2 class="accordion-header" id="flush-headingSeven">
+              <button class="accordion-button collapsed bg-transparent text-white fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                Information
+              </button>
+            </h2>
+            <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <ul class="bg-bg1 ps-0">
+                  <li class="list-group-item bg-transparent border-0 ps-0"><a class="text-decoration-none text-gray2" href="#">Return Policy</a></li>
+                  <li class="list-group-item bg-transparent border-0 ps-0"><a class="text-decoration-none text-gray2" href="#">Terms Of Use</a></li>
+                  <li class="list-group-item bg-transparent border-0 ps-0"><a class="text-decoration-none text-gray2" href="#">Security</a></li>
+                  <li class="list-group-item bg-transparent border-0 ps-0"><a class="text-decoration-none text-gray2" href="#">Privacy</a></li>
+                  <li class="list-group-item bg-transparent border-0 ps-0"><a class="text-decoration-none text-gray2" href="#">Sitemap</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item bg-transparent border border-0">
+            <h2 class="accordion-header" id="flush-headingEight">
+              <button class="accordion-button collapsed bg-transparent text-white fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                Address
+              </button>
+            </h2>
+            <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <ul class="bg-bg1 ps-0">
+                  <li class="list-group-item bg-transparent border-0 ps-0">
+                    <div class="row bg-bg1 py-1 px-2 text-white">
+                      <div class="col-12 col-md-4 mb-2">
+                        <span class="float-start rounded-circle text-center me-3" style="width: 3.5rem; height: 3.5rem;">
+                          <i class="fas fa-map-marked-alt text-ochre1 fs-2 p-2 lh-base"></i>
+                        </span>
+                        <div>
+                          <h2 class="fs-6 text-gray2 mt-2">184 Lorem Rd, St Ipsum Road PLC 3021, London</h2>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="list-group-item bg-transparent border-0 ps-0">
+                    <div class="row bg-bg1 py-1 px-2 text-white">
+                      <div class="col-12 col-md-4 mb-2">
+                        <span class="float-start rounded-circle text-center me-3" style="width: 3.5rem; height: 3.5rem;">
+                          <i class="fas fa-envelope-open-text text-ochre1 fs-2 p-2 lh-base"></i>
+                        </span>
+                        <div>
+                          <h2 class="fs-6 text-gray2 mt-3">demo@example.com</h2>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="list-group-item bg-transparent border-0 ps-0">
+                    <div class="row bg-bg1 py-1 px-2 text-white">
+                      <div class="col-12 col-md-4 mb-2">
+                        <span class="float-start rounded-circle text-center me-3" style="width: 3.5rem; height: 3.5rem;">
+                          <i class="fas fa-headphones-alt text-ochre1 fs-2 p-2 lh-base"></i>
+                        </span>
+                        <div>
+                          <h2 class="fs-6 text-gray2 mt-3">7562365987 / 12365698</h2>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item bg-transparent border border-0">
+            <h2 class="accordion-header" id="flush-headingNine">
+              <button class="accordion-button collapsed bg-transparent text-white fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                Secured by
+              </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <ul class="bg-bg1">
+                  <li class="d-inline-block">
+                    <div class="col-11">
+                    <img src="images/footer-logo1.png" class="img-fluid" alt="Image Not Found">
+                    </div>
+                  </li>
+                  <li class="d-inline-block">
+                    <div class="col-11">
+                    <img src="images/footer-logo2.png" class="img-fluid" alt="Image Not Found">
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item bg-transparent border border-0">
+            <h2 class="accordion-header" id="flush-headingTen">
+              <button class="accordion-button collapsed bg-transparent text-white fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                Follow Us
+              </button>
+            </h2>
+            <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingTen" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <ul class="bg-bg1">
+                  <li class="list-group-item d-inline-block border-0 fs-6 bg-blue1">
+                    <div class="text-center" style="width: 1.5rem; height: 1.5rem;">
+                      <a href="#">
+                        <i class="fab fa-twitter text-white"></i>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="list-group-item d-inline-block border-0 fs-6 bg-blue2">
+                    <div class="text-center" style="width: 1.5rem; height: 1.5rem;">
+                      <a href="#">
+                        <i class="fab fa-facebook-f text-white"></i>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="list-group-item d-inline-block border-0 fs-6 bg-blue2">
+                    <div class="text-center" style="width: 1.5rem; height: 1.5rem;">
+                      <a href="#">
+                        <i class="fab fa-linkedin-in text-white"></i>
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="row py-4 d-none d-lg-flex justify-content-center">
+          <div class="col-2">
+            <h2 class="fs-6 fw-bolder text-white mb-4">About</h2>
+            <ul class="list-group bg-bg1">
+              <li class="list-group-item bg-transparent border-0 ps-0"><a class="text-decoration-none text-gray2" href="#">Contact Us</a></li>
+              <li class="list-group-item bg-transparent border-0 ps-0"><a class="text-decoration-none text-gray2" href="#">About Us</a></li>
+              <li class="list-group-item bg-transparent border-0 ps-0"><a class="text-decoration-none text-gray2" href="#">Careers</a></li>
+              <li class="list-group-item bg-transparent border-0 ps-0"><a class="text-decoration-none text-gray2" href="#">Flipkart Stories</a></li>
+              <li class="list-group-item bg-transparent border-0 ps-0"><a class="text-decoration-none text-gray2" href="#">Press</a></li>
+            </ul>
+
+          </div>
+
+
+          <div class="col-2">
+            <h2 class="fs-6 fw-bolder text-white">Help</h2>
+            <ul class="list-group bg-bg1">
+              <li class="list-group-item bg-transparent border-0 ps-0"><a class="text-decoration-none text-gray2" href="#">Payments</a></li>
+              <li class="list-group-item bg-transparent border-0 ps-0"><a class="text-decoration-none text-gray2" href="#">Shipping</a></li>
+              <li class="list-group-item bg-transparent border-0 ps-0"><a class="text-decoration-none text-gray2" href="#">Cancellation & Returns</a></li>
+              <li class="list-group-item bg-transparent border-0 ps-0"><a class="text-decoration-none text-gray2" href="#">FAQ Report</a></li>
+              <li class="list-group-item bg-transparent border-0 ps-0"><a class="text-decoration-none text-gray2" href="#">Infringemen</a></li>
+            </ul>
+          </div>
+
+
+          <div class="col-auto">
+            <h2 class="fs-6 fw-bolder text-white">Information</h2>
+            <ul class="list-group bg-bg1">
+              <li class="list-group-item bg-transparent border-0 ps-0"><a class="text-decoration-none text-gray2" href="#">Return Policy</a></li>
+              <li class="list-group-item bg-transparent border-0 ps-0"><a class="text-decoration-none text-gray2" href="#">Terms Of Use</a></li>
+              <li class="list-group-item bg-transparent border-0 ps-0"><a class="text-decoration-none text-gray2" href="#">Security</a></li>
+              <li class="list-group-item bg-transparent border-0 ps-0"><a class="text-decoration-none text-gray2" href="#">Privacy</a></li>
+              <li class="list-group-item bg-transparent border-0 ps-0"><a class="text-decoration-none text-gray2" href="#">Sitemap</a></li>
+            </ul>
+          </div>
+
+          <div class="col-auto d-flex" style="height: 280px;">
+            <div class="vr text-gray1"></div>
+          </div>
+          
+          
+          <div class="col-3">
+            <h2 class="fs-6 fw-bolder text-white">Address</h2>
+            <ul class="list-group bg-bg1">
+              <li class="list-group-item bg-transparent border-0 ps-0">
+                <div class="row bg-bg1 py-1 pe-2 ps-0 text-white">
+                  <div class="col-12 mb-2">
+                    <span class="float-start rounded-circle text-center ms-0 me-3" style="width: 2rem; height: 2rem;">
+                      <i class="fas fa-map-marked-alt text-ochre1 fs-4 p-2 lh-base"></i>
+                    </span>
+                    <div>
+                      <h2 class="fs-6 text-gray2 mt-2 footer">184 Lorem Rd, St Ipsum Road PLC 3021, London</h2>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item bg-transparent border-0 ps-0">
+                <div class="row bg-bg1 py-1 pe-2 ps-0 text-white">
+                  <div class="col-12 mb-2">
+                    <span class="float-start rounded-circle text-center me-3 ms-0" style="width: 2rem; height: 2rem;">
+                      <i class="fas fa-envelope-open-text text-ochre1 fs-4 p-2 lh-base"></i>
+                    </span>
+                    <div>
+                      <h2 class="fs-6 text-gray2 ps-lg-5 mt-3"><a href="#" class="text-decoration-none text-gray2">demo@example.com</a></h2>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item bg-transparent border-0 ps-0">
+                <div class="row bg-bg1 py-1 pe-2 ps-0 text-white">
+                  <div class="col-12 mb-2">
+                    <span class="float-start rounded-circle text-center me-3 ms-0 mb-2" style="width: 2rem; height: 2rem;">
+                      <i class="fas fa-headphones-alt text-ochre1 fs-4 p-2 lh-base"></i>
+                    </span>
+                    <div>
+                      <h2 class="fs-6 text-gray2 mt-3">7562365987 / 12365698</h2>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          
+          
+          <div class="col-2">
+            <h2 class="fs-6 fw-bolder text-white">Secured by</h2>
+            <ul class="list-group bg-bg1 d-flex flex-row">
+              <li class="d-inline-block">
+                <div class="col-12">
+                <img src="images/footer-logo1.png" class="img-fluid me-2" alt="Image Not Found" style="width: 6rem;">
+                </div>
+              </li>
+              <li class="d-inline-block">
+                <div class="col-12">
+                <img src="images/footer-logo2.png" class="img-fluid ms-3" alt="Image Not Found" style="width: 6rem;">
+                </div>
+              </li>
+            </ul>
+
+
+            <h2 class="fs-6 fw-bolder text-white mt-4">Follow Us</h2>
+            <ul class="list-group bg-bg1 d-flex flex-row">
+              <li class="list-group-item bg-transparent d-inline-block border-0 fs-6 bg-blue1 px-0">
+                <div class="text-center bg-bg1 rounded-circle footerfollow" style="width: 2rem; height: 2rem;">
+                  <a href="#" class="text-white">
+                    <i class="fab fa-twitter text-white lh-lg"></i>
+                  </a>
+                </div>
+              </li>
+              <li class="list-group-item bg-transparent d-inline-block border-0 fs-6 bg-blue2 px-0">
+                <div class="text-center bg-bg1 rounded-circle footerfollow" style="width: 2rem; height: 2rem;">
+                  <a href="#" class="text-white">
+                    <i class="fab fa-facebook-f text-white lh-lg"></i>
+                  </a>
+                </div>
+              </li>
+              <li class="list-group-item bg-transparent d-inline-block border-0 fs-6 bg-blue2 px-0">
+                <div class="text-center bg-bg1 rounded-circle footerfollow" style="width: 2rem; height: 2rem;">
+                  <a href="#" class="text-white">
+                    <i class="fab fa-linkedin-in text-white lh-lg"></i>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          
+        </div>
+        
+
+
+
+
+        
+        <div class="col-12">
+          <hr class="border border-1 w-100">
+        </div>
+
+
+        <div class="row footerend">
+          <div class="col-12 col-md-6 text-center text-md-start">
+            <h2 class="fs-6 text-white">  Copyright © 2022                        Templatemela                                            </h2>
+          </div>
+          <div class="col-12 col-md-6 text-md-end">
+            <div class="row">
+              <div class="col-12">
+                <ul class="list-group list-group-flush d-flex flex-row flex-wrap justify-content-center align-items-center g-0 p-0 m-0 justify-content-md-end">
+                  <li class="list-group-item d-inline-block border-0 fs-6 p-0 mx-1 bg-transparent">
+                    <div class="text-center">
+                      <a href="#">
+                      <img src="images/footer1.png" alt="Image Not Found">
+                    </a>
+                  </div>
+                </li>
+                <li class="list-group-item d-inline-block border-0 fs-6 p-0 mx-1 bg-transparent">
+                  <div class="text-center">
+                    <a href="#">
+                      <img src="images/footer2.png" alt="Image Not Found">
+                    </a>
+                  </div>
+                </li>
+                <li class="list-group-item d-inline-block border-0 fs-6 p-0 mx-1 bg-transparent">
+                  <div class="text-center">
+                    <a href="#">
+                      <img src="images/footer3.png" alt="Image Not Found">
+                    </a>
+                  </div>
+                </li>
+                <li class="list-group-item d-inline-block border-0 fs-6 p-0 mx-1 bg-transparent">
+                  <div class="text-center">
+                    <a href="#">
+                      <img src="images/footer4.png" alt="Image Not Found">
+                    </a>
+                  </div>
+                </li>
+                <li class="list-group-item d-inline-block border-0 fs-6 p-0 mx-1 bg-transparent">
+                  <div class="text-center">
+                    <a href="#">
+                      <img src="images/footer5.png" alt="Image Not Found">
+                    </a>
+                  </div>
+                </li>
+                <li class="list-group-item d-inline-block border-0 fs-6 p-0 mx-1 bg-transparent">
+                  <div class="text-center">
+                    <a href="#">
+                      <img src="images/footer6.png" alt="Image Not Found">
+                    </a>
+                  </div>
+                </li>
+                <li class="list-group-item d-inline-block border-0 fs-6 p-0 mx-1 bg-transparent">
+                  <div class="text-center">
+                    <a href="#">
+                      <img src="images/footer6.png" alt="Image Not Found">
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div><!-- footer End-->
+
+    <div class="position-fixed bottom-0 end-0 me-4 me-lg-5 mb-5" id="upbutton">
+      <span class="px-2 py-1 uparrow position-relative" style="width: 3rem; height: 3rem;">
+        <a href="#"><i class="fas fa-chevron-up text-ochre1"></i></a>
+      </span>
+      <div class="position-absolute top-50 start-50 translate-middle outercircle">
+        <div class="innercircle"></div>
+      </div>
+      <div class="position-absolute top-50 start-50 translate-middle outercircle">
+        <div class="innercircle2"></div>
+      </div>
+    </div><!-- Upbutton End-->
+
+
+
+    </div><!-- Container End-->
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> -->
+
+    <script src="../bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="../jQuery/jquery.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="../javascript-plugin/1-OwlCarouselPlugin/js/owl.carousel.js"></script>
+
+    <script src="js/cafelle.js"></script>
+
+    
+  </body>
+</html>
