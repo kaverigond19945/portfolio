@@ -368,9 +368,9 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 30px;
+  margin-left: 5px;
   width: min-content;
-  gap: 10px;
+  gap: 14px;
   /* filter: invert(1); */
 }
 .icon-img img:hover{
